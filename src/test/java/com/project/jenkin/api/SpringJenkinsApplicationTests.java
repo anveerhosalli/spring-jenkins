@@ -17,5 +17,11 @@ class SpringJenkinsApplicationTests {
 		logger.info("Execting test case");
 		assertEquals(true, true);
 	}
+	
+	@Test
+	public void test() {
+		logger.info("in test");
+		assertEquals(2, 2);
+	}
 
 }

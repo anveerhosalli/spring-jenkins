@@ -15,7 +15,7 @@ public class SpringJenkinsApplication {
 	
 	@PostConstruct
 	public void init() {
-		logger.info("Application Started");
+		logger.info("Application Started in port 1010");
 	}
 	public static void main(String[] args) {
 		logger.info("Main method started");
